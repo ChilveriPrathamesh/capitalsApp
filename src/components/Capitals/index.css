@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #93c5fd;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-app-container {
+  background-color: #f8fafc;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  padding-left: 25px;
+  height: 55%;
+  width: 48%;
+}
+
+.app-description {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-left: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-description {
+    font-size: 24px;
+  }
+}
+
+.class-container {
+  display: flex;
+}
+
+.select-tab {
+  width: 50px;
+  height: 20px;
+  margin-left: 8px;
+  margin-right: 6px;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .select-tab {
+    width: 140px;
+    height: 40px;
+    margin-left: 14px;
+  }
+}
+
+.option-description {
+  color: #323f4b;
+  font-size: 14px;
+  font-family: roboto;
+  margin-left: 8px;
+  padding-bottom: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .option-description {
+    font-size: 20px;
+    margin-left: 14px;
+  }
+}
+.country-name {
+  color: #1e293b;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .country-name {
+    font-size: 24px;
+    margin-left: 12px;
+  }
+}
